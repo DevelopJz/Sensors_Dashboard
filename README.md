@@ -60,9 +60,9 @@ C:\Users\사용자명\Documents\Arduino\libraries 에서 다운로드한 zip 파
 
 ### 동작 개요
 
-arduino : 
+arduino : 각 센서 값 읽어 Raspberry pi 에 전송
 
-Raspberry pi : 
+Raspberry pi : 전송받은 센서 값 측정 시간에 맞춰서 기록, 
 
 PC : 
 
@@ -81,6 +81,15 @@ Serial 통신으로 Raspberry pi 에 각 센서값 전송
 
 **Rasp_Data.py**  
 
-
+테스트 장비 동작하는 동안 전송받은 데이터 csv, 그래프 파일 저장  
+email : 테스트 장비 동작 정지 및 테스트 종료 후 csv, 그래프 파일 email로 사무실의 pc에 전송, 하루 치 측정 데이터 확인 가능  
+TCP/IP : 클라이언트가 접속했을 때 각 센서 값, 측정 시간 클라이언트로 전송  
 
 **win_GUI.py**  
+
+TCP/IP : Raspberry pi 에 접속하여 각 센서 값, 측정 시간 전송받고 GUI에 표시  
+접속한 순간부터 GUI 데이터 기록  
+
+GUI
+ - DashBoard : 
+ - Graph : 
