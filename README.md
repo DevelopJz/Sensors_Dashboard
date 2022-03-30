@@ -91,10 +91,10 @@ TCP/IP : Raspberry pi 에 접속하여 각 센서 값, 측정 시간 전송받�
 접속한 순간부터 GUI 데이터 기록  
 
 GUI
- - DashBoard : 
+ - DashBoard  
 
 ![DASHBOARD](https://user-images.githubusercontent.com/96412126/160726165-6fba3c3a-3f82-4c65-a5b8-52772079c700.png)
 
- - Graph : 
+ - Graph  
 
 ![GRAPH](https://user-images.githubusercontent.com/96412126/160726177-cff72a09-451d-4efb-90f4-16cc9dc9316e.png)
